@@ -57,13 +57,14 @@ tac
     font-weight: bold;  
     size: 20px;  
     }
-    .share{
+    .right-p .share{
         overflow: hidden;
         
         display: none;
     }
-    .share2{
+    .right-p .share2{
         overflow: visible;
         margin-top: -190px;
+        display: contents;
     }
 }
