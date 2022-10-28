@@ -1,0 +1,30 @@
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    align-items: center;
+    gap: 64px;
+}
+#Slack{
+    display: flex;
+    margin-left: 650px;
+    
+}
+#Github{
+    display: flex;
+    margin-left: 10px;   
+}
+@media screen and (max-width: 1080px){
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        align-items: center;
+        gap: 64px;
+        margin-left: 540px;
+        position: relative;
+    }
+    #Slack{
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,144 @@
+.linkto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width:  800px;
+    gap: 21px;
+    padding: 10px, 10px, 10px, 10px;
+    padding-left: 300px;
+}
+.dlink{
+    display: flex;
+    padding: 10px, 10px, 900px, 900px;
+    margin: auto;
+    width: 600px;
+    background-color: rgba(234, 236, 240, 1);
+}
+#twitter{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 250px;
+    color: black;
+}
+#btn__zuri{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 250px;
+    color: black;
+}
+#books{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 250px;
+    color: black;
+}
+#book__python{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 250px;
+    color: black;
+}
+#pitch{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 200px;
+    color: black;
+}
+#book__design{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 255px;
+    color: black;
+}
+@media screen and (max-width: 1080px){
+    .linkto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        width:  600px my-react-app;
+        gap: 21px;
+        padding: 10px, 10px, 10px, 10px;
+        padding-left: 550px;
+    }
+    #twitter{
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 250px;
+        color: black;
+    }
+    #btn__zuri{
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 250px;
+        color: black;
+    }
+    #books{
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 250px;
+        color: black;
+    }
+    #book__python{
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 240px;
+        color: black;
+    }
+    #pitch{
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 210px;
+        color: black;
+    }
+    #book__design{
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-left: 240px;
+        color: black;
+    }
+    .dlink{
+        margin-left: -200px;
+    }
+}
+
+
