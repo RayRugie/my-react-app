@@ -15,7 +15,7 @@ const Linksto = () => {
       <a href='https://books.zuri.team/' id='books'>Zuri Books</a>
       </div>
       <div className="dlink">
-      <a href='https://books.zuri.team/python-for-beginners?ref_id=<OmorugieOyibotha>' id='book__python'>Python Books</a>
+      <a href='https://books.zuri.team/python-for-beginners?ref_id=<omorugieoyibotha>' id='book__python'>Python Books</a>
       </div>
       <div className="dlink">
       <a href='https://background.zuri.team' id='pitch'>Background Check for Coders</a>
