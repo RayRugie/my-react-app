@@ -28,7 +28,7 @@ tac
 }
 .right-p{
     margin-left: 350px;
-    margin-top: -50px;
+    margin-top: -90px;
 }
 .share{
     overflow: visible;
@@ -59,9 +59,11 @@ tac
     }
     .share{
         overflow: hidden;
-        margin-top: -190px;
+        
+        display: none;
     }
     .share2{
         overflow: visible;
+        margin-top: -190px;
     }
 }
