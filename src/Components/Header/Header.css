@@ -56,6 +56,10 @@ tac
     font-size: x-large;
     font-weight: bold;  
     size: 20px;  
+    } 
+    .right-p{
+        margin-left: 350px;
+        margin-top: -90px;
     }
     .right-p .share{
         overflow: hidden;
@@ -67,4 +71,5 @@ tac
         margin-top: -190px;
         display: contents;
     }
+   
 }
