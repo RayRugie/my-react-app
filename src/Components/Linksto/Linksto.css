@@ -8,11 +8,12 @@
     gap: 21px;
     padding: 10px, 10px, 10px, 10px;
     padding-left: 600px;
+
 }
 .dlink{
     display: flex;
     padding: 10px, 10px, 900px, 900px;
-    margin: auto;
+    margin-left: 100px;
     width: 600px;
     background-color: rgba(234, 236, 240, 1);
 }
