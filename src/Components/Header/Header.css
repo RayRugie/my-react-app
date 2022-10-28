@@ -30,8 +30,12 @@ tac
     margin-left: 350px;
     margin-top: -50px;
 }
-.right-p>img{
-    margin-top: -150px;
+.share{
+    overflow: visible;
+    margin-top: -190px;
+}
+.share2{
+    overflow: hidden;
 }
 @media screen and (max-width: 1080px){
     .Profile{
@@ -51,5 +55,12 @@ tac
     font-size: x-large;
     font-weight: bold;  
     size: 20px;  
+    }
+    .share{
+        overflow: hidden;
+        margin-top: -190px;
+    }
+    .share2{
+        overflow: visible;
     }
 }
