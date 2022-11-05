@@ -1,6 +1,6 @@
 import React from 'react';
 import './Linksto.css'
-
+import { Link } from 'react-router-dom';
 
 const Linksto = () => {
   return (
@@ -23,6 +23,18 @@ const Linksto = () => {
       <div className="dlink">
       <a href='https://books.zuri.team/design-rules' id='book__design'>Design Books</a>
       </div>
+         <Link
+          to='/contact'
+          className='contact-link'
+          id='contact'
+          onClick={() => {
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          }}>
+           
+               Contact Me
+          
+         
+        </Link>
     </div >
   )
 }

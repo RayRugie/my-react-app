@@ -78,6 +78,25 @@
     padding-left: 255px;
     color: black;
 }
+.contact-link{
+    display: flex;
+    padding: 10px, 10px, 900px, 900px;
+    margin-left: 590px;
+    margin-top: 10px;
+    width: 350px;
+    background-color: rgba(234, 236, 240, 1);
+ }
+ #contact{
+    text-decoration: none;
+    text-align: 100px;
+    align-items: center;
+    justify-content: 45px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 255px;
+    color: black;
+ }
+
 @media screen and (max-width: 1080px){
     .linkto{
         display: flex;

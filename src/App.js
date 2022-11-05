@@ -1,17 +1,25 @@
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from './Components/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
+import Contact from './Components/Contacts/Contacts';
 import Icons from './Components/Icons/Icons';
-import Linksto from './Components/Linksto/Linksto';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Linksto />  
-      <Icons />
-      <Footer />   
+      <Router>
+        <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/contact' element={<Contact />} />
+        </Routes>
+        <Icons />
+        <Footer />  
+      </Router>
+      
+       
     </div>
   );
 }
