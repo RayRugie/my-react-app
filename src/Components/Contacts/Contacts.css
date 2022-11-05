@@ -81,3 +81,28 @@
   #btn__submit:hover {
     background-color: #0da6ff;
   }
+  /* Responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .footer div {
+      margin: 13px 0;
+    }
+    .names {
+      flex-direction: column;
+    }
+  }
+  
+  .red {
+    display: block;
+    margin: 10px 0;
+    color: red;
+  }
+  .not {
+    display: none;
+  }
+  
